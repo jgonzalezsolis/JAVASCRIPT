@@ -14,7 +14,7 @@ const employee = {
 }
 const { name: otherName } = employee;
 //Predict the output
-console.log(name);
+// console.log(name);
 // => SyntaxError: Identifier 'name' is not defined
 console.log(otherName);
 // => Elon
@@ -51,12 +51,12 @@ const { secondKey } = lastTest;
 const [ ,willThisWork] = secondKey;
 
 
-//Predict the output
-console.log(key);
-// => value
-console.log(secondKey);
-// => [1,5,1,8,3,3]
-console.log(secondKey[0]);
-// => 1
-console.log(willThisWork);
-// => 5
+// //Predict the output
+// console.log(key);
+// // => value
+// console.log(secondKey);
+// // => [1,5,1,8,3,3]
+// console.log(secondKey[0]);
+// // => 1
+// console.log(willThisWork);
+// // => 5
